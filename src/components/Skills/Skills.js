@@ -27,10 +27,10 @@ class Skills extends Component {
       <div id="skillswrap">
         <div className="container">
           <div className="row">
-              <div className="col-lg-2 col-lg-offset-1">
+              <div className="col-md-2 col-md-offset-1">
                 <h5>SKILLS</h5>
               </div>
-              <div className="col-lg-3 centered">
+              <div className="col-md-3 centered">
                 <canvas id="javascript" height="130" width="130"></canvas>
                 <p>Javascript</p>
                 <br />

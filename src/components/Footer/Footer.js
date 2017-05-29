@@ -10,10 +10,10 @@ class Footer extends Component {
         <div className="container">
           <div className="row">
 
-            <div className="col-lg-2 col-lg-offset-1">
+            <div className="col-md-2 col-md-offset-1">
               <h5>CONTACT</h5>
             </div>
-            <div className="col-lg-6">
+            <div className="col-md-6">
               <p><t>Email</t><br/>
                 eric.dobroveanu@gmail.com <br/>
               </p>
