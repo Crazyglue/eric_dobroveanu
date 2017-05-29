@@ -15,26 +15,10 @@ class Footer extends Component {
             </div>
             <div className="col-lg-6">
               <p><t>Email</t><br/>
-                william@blacktie.co <br/>
+                eric.dobroveanu@gmail.com <br/>
               </p>
-              <p><t>Adress</t><br/>
-                Some Ave. 987 <br/>
-                Postal 23892 <br/>
-                London, England. <br/>
-              </p>
-              <p><t>Phone</t><br/>
-                +55 8933-2383 <br/>
-              </p>
-            </div>
-            <div className="col-lg-3">
-              <p><sm>SOCIAL LINKS</sm></p>
-              <p>
-                <a href="#"><i className="fa fa-dribbble"></i></a>
-                <a href="#"><i className="fa fa-twitter"></i></a>
-                <a href="#"><i className="fa fa-facebook"></i></a>
-                <a href="#"><i className="fa fa-linkedin"></i></a>
-                <a href="#"><i className="fa fa-apple"></i></a>
-
+              <p><t>Address</t><br/>
+                Chicago, IL <br/>
               </p>
             </div>
           </div>

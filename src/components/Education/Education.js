@@ -10,25 +10,35 @@ class Education extends Component {
             <h5>EDUCATION</h5>
           </div>
           <div className="col-lg-6">
-            <p><t>Master of Web Design</t><br/>
-              St. Patrick University <br/>
-              <i>3 Years Course</i>
+            <p><t>Software Development</t><br/>
+              College of DuPage <br/>
+              <i>2 Year Course</i>
             </p>
           </div>
           <div className="col-lg-3">
-            <p><sm>GRADUATING IN MAY 2014</sm><br/>
-            <imp><sm>IN PROGRESS</sm></imp>
-            </p>
+            <p><sm>DECEMBER 2015</sm></p>
           </div>
 
           <div className="col-lg-6 col-lg-offset-3">
-            <p><t>Degree of Web Developer</t><br/>
-              Hastings University <br/>
-              <i>2 Years Course</i>
+            <p><t>Certificate of Computer Information Systems</t><br/>
+              C++ Language<br/>
+              College of DuPage <br/>
+              <i>1 Year Course</i>
             </p>
           </div>
           <div className="col-lg-3">
-            <p><sm>JUNE 2012</sm></p>
+            <p><sm>MAY 2015</sm></p>
+          </div>
+
+          <div className="col-lg-6 col-lg-offset-3">
+            <p><t>Certificate of Computer Information Systems</t><br/>
+              Java Language<br/>
+              College of DuPage <br/>
+              <i>1 Year Course</i>
+            </p>
+          </div>
+          <div className="col-lg-3">
+            <p><sm>MAY 2015</sm></p>
           </div>
 
         </div>

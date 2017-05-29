@@ -9,8 +9,8 @@ class Title extends Component {
         <div className="container">
           <div className="row centered">
             <div className="col-lg-12">
-              <h1>William T. Kelvin</h1>
-              <h3>Web Designer | kelvin@blacktie.co</h3>
+              <h1>Eric Dobroveanu</h1>
+              <h3>Software Engineer | eric.dobroveanu@gmail.com</h3>
             </div>
           </div>
         </div>
