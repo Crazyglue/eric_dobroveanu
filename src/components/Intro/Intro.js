@@ -11,11 +11,11 @@ class Intro extends Component {
           <div className="row">
 
             <div className="col-md-3">
-              <img style={ { height: 150 } } src={Eric} />
+              <img style={ { height: 150 } } src={Eric} alt="me" />
             </div>
             <div className="col-md-9">
               <h5>ABOUT</h5>
-              <p>I'm a software engineer and web developer with 2 years of professional experience. I'm interested in all kinds of software technologies, but my major focus is on fullstack web app development. I also have skills in other fields like CAD, fabcrication and web design.</p>
+              <p>I'm a software engineer with dynamic knowledge and the ability to independently or collaboratively solve complex problems. I'm interested in all kinds of tech, but my major focus is on fullstack web app development. I also have skills in other fields like CAD, fabcrication and web design.</p>
             </div>
 
           </div>

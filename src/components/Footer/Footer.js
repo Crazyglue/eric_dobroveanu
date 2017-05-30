@@ -13,7 +13,7 @@ class Footer extends Component {
             <div className="col-md-2 col-md-offset-1">
               <h5>CONTACT</h5>
             </div>
-            <div className="col-md-6">
+            <div className="col-md-4">
               <p><t>Email</t><br/>
                 eric.dobroveanu@gmail.com <br/>
               </p>
@@ -21,7 +21,14 @@ class Footer extends Component {
                 Chicago, IL <br/>
               </p>
             </div>
+            <div className="col-md-1">
+              <a href="#"><i className="fa fa-github fa-4x"></i></a>
+            </div>
+            <div className="col-md-4">
+              <p>This site's source code is on github, check it out!</p>
+            </div>
           </div>
+
         </div>
       </div>
     )

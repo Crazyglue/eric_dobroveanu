@@ -17,11 +17,12 @@ class App extends Component {
         <Title />
         <section id="about" name="about"></section>
         <Intro />
-        <section id="resume" name="resume"></section>
-        <Education />
-        <Work />
-        <Skills />
         <section id="work" name="work"></section>
+        <Work />
+        <Education />
+        <seciton id="skills" name="skills"></seciton>
+        <Skills />
+        <section id="side-projects" name="side-projects"></section>
         <Portfolio />
         <section id="contact" name="contact"></section>
         <Footer />

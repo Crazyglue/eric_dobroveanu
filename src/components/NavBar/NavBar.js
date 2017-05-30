@@ -12,8 +12,9 @@ class NavBar extends Component {
               <div className="dropdown">
                 <ul id="nav" className="nav">
                   <li className="menu-item"><a className="smoothScroll" href="#about" title="About"><i className="fa fa-user"></i></a></li>
-                  <li className="menu-item"><a className="smoothScroll" href="#resume" title="Resume"><i className="fa fa-file"></i></a></li>
-                  <li className="menu-item"><a className="smoothScroll" href="#work" title="Works"><i className="fa fa-briefcase"></i></a></li>
+                  <li className="menu-item"><a className="smoothScroll" href="#work" title="Work"><i className="fa fa-briefcase"></i></a></li>
+                  <li className="menu-item"><a className="smoothScroll" href="#skills" title="Skills"><i className="fa fa-wrench"></i></a></li>
+                  <li className="menu-item"><a className="smoothScroll" href="#side-projects" title="Side Projects"><i className="fa fa-file"></i></a></li>
                   <li className="menu-item"><a className="smoothScroll" href="#contact" title="Contact"><i className="fa fa-envelope"></i></a></li>
                 </ul>
               </div>

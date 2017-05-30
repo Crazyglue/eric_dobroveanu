@@ -22,17 +22,13 @@ class Skills extends Component {
   }
 
   _generateSkills() {
-    console.log("skills", skills)
     return skills.map((skill, index) => {
       let skillData = this._generateSkillData(skill)
 
       return (
-        <div className="col-md-4 centered">
+        <div key={index} className="col-md-4 col-sm-6 centered skill">
           <p>{skill.name}</p>
-          <br />
           <Doughnut options={ { showTooltips: false } } height="130" width="130" data={skillData} />
-
-          <hr />
         </div>
       )
     })
@@ -47,7 +43,7 @@ class Skills extends Component {
               <h5>SKILLS</h5>
             </div>
           </div>
-          <div className="col-md-9 col-md-offset-2">
+          <div className="col-md-9 col-md-offset-2 skill-list">
             {this._generateSkills()}
           </div>
           <br />
