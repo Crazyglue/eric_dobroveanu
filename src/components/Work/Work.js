@@ -15,7 +15,7 @@ class Work extends Component {
             <p><t>Software Engineer</t><br/>
               <a href="http://inventables.com">Inventables</a><br/>
             </p>
-            <p><more>Built, maintained and improved <a href="http://easel.inventables.com">Easel</a>, a web app which allowed users to design and carve 3D objects using a CNC milling machine.
+            <p><more>Built, maintained and improved <a href="http://easel.inventables.com">Easel</a>, a web app which allows users to design and carve 3D objects using a CNC milling machine.
             I analyzed, planned and implemented a large range of features, from 2D drawing tools to machine control software.
             I also routinely pair programmed, fixed bugs, and collaborated with other departments to achieve strategic and tactical business goals</more></p>
           </div>

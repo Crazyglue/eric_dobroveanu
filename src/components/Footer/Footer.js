@@ -22,7 +22,7 @@ class Footer extends Component {
               </p>
             </div>
             <div className="col-md-1">
-              <a href="#"><i className="fa fa-github fa-4x"></i></a>
+              <a href="https://github.com/Crazyglue/eric_dobroveanu"><i className="fa fa-github fa-4x"></i></a>
             </div>
             <div className="col-md-4">
               <p>This site's source code is on github, check it out!</p>
