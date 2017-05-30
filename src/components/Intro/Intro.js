@@ -15,7 +15,7 @@ class Intro extends Component {
             </div>
             <div className="col-md-9">
               <h5>ABOUT</h5>
-              <p>I'm a software engineer with dynamic knowledge and the ability to independently or collaboratively solve complex problems. I'm interested in all kinds of tech, but my major focus is on fullstack web app development. I also have skills in other fields like CAD, fabcrication and web design.</p>
+              <p>Software engineer with dynamic knowledge and the ability to independently or collaboratively solve complex problems. Diverse field of interest, specialization in fullstack web app development and design. Experience prototyping and manufacturing realworld products using CAD, digital manufacturing techniques and traditional fabrication techniques.</p>
             </div>
 
           </div>
