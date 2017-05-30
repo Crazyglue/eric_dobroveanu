@@ -1,25 +1,41 @@
 import React, { Component } from 'react';
 import './Skills.css';
 import { Doughnut } from 'react-chartjs'
+import skills from '../../constants/skills.json'
 
-var javascriptData = [
-  {
-    value: 70,
-    color: "#1abc9c"
-  },
-  {
-    value: 30,
-    color: "#ecf0f1"
-  }
-]
+const primaryColor = "#1abc9c";
+const secondaryColor = "#ecf0f1";
 
 class Skills extends Component {
-  _mouseOver(e) {
-    console.log("mouseOver", e)
+
+  _generateSkillData(skill) {
+    return [
+      {
+        value: skill.primaryValue,
+        color: primaryColor
+      },
+      {
+        value: skill.secondaryValue,
+        color: secondaryColor
+      }
+    ]
   }
 
-  _mouseOut(e) {
-    console.log("mouseOut", e)
+  _generateSkills() {
+    console.log("skills", skills)
+    return skills.map((skill, index) => {
+      let skillData = this._generateSkillData(skill)
+
+      return (
+        <div className="col-md-4 centered">
+          <p>{skill.name}</p>
+          <br />
+          <Doughnut options={ { showTooltips: false } } height="130" width="130" data={skillData} />
+
+          <hr />
+        </div>
+      )
+    })
   }
 
   render() {
@@ -27,16 +43,12 @@ class Skills extends Component {
       <div id="skillswrap">
         <div className="container">
           <div className="row">
-              <div className="col-md-2 col-md-offset-1">
-                <h5>SKILLS</h5>
-              </div>
-              <div className="col-md-3 centered">
-                <canvas id="javascript" height="130" width="130"></canvas>
-                <p>Javascript</p>
-                <br />
-                <Doughnut data={javascriptData} onMouseOver={this._mouseOver} onMouseOut={this._mouseOut} />
-              </div>
-
+            <div className="col-md-2 col-md-offset-1">
+              <h5>SKILLS</h5>
+            </div>
+          </div>
+          <div className="col-md-9 col-md-offset-2">
+            {this._generateSkills()}
           </div>
           <br />
         </div>

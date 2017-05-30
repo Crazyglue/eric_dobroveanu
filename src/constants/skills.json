@@ -1,0 +1,47 @@
+[
+  {
+    "name": "Javascript",
+    "primaryValue": 95,
+    "secondaryValue": 5
+  },
+  {
+    "name": "Ruby / RoR",
+    "primaryValue": 80,
+    "secondaryValue": 20
+  },
+  {
+    "name": "React.JS",
+    "primaryValue": 95,
+    "secondaryValue": 5
+  },
+  {
+    "name": "Redux / Flux",
+    "primaryValue": 70,
+    "secondaryValue": 30
+  },
+  {
+    "name": "Node.JS",
+    "primaryValue": 60,
+    "secondaryValue": 40
+  },
+  {
+    "name": "Git",
+    "primaryValue": 90,
+    "secondaryValue": 10
+  },
+  {
+    "name": "TDD / BDD",
+    "primaryValue": 70,
+    "secondaryValue": 30
+  },
+  {
+    "name": "AWS (S3/RDS/EC2)",
+    "primaryValue": 60,
+    "secondaryValue": 40
+  },
+  {
+    "name": "C++ / Java",
+    "primaryValue": 30,
+    "secondaryValue": 70
+  }
+]
