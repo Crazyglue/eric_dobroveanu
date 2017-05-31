@@ -11,15 +11,14 @@ class Footer extends Component {
           <div className="row">
 
             <div className="col-md-2 col-md-offset-1">
-              <h5>CONTACT</h5>
+              <h5 className="uppercase">CONTACT</h5>
             </div>
             <div className="col-md-4">
-              <p><t>Email</t><br/>
-                eric.dobroveanu@gmail.com <br/>
-              </p>
-              <p><t>Address</t><br/>
-                Chicago, IL <br/>
-              </p>
+              <p className="section-header">Email</p>
+              <p>eric.dobroveanu@gmail.com</p>
+
+              <p className="section-header">Address</p>
+              <p>Chicago, IL</p>
             </div>
             <div className="col-md-1">
               <a href="https://github.com/Crazyglue/eric_dobroveanu"><i className="fa fa-github fa-4x"></i></a>

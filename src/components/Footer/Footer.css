@@ -22,3 +22,8 @@
 	padding-right: 8px;
 	color: #1abc9c;
 }
+
+.section-header {
+	font-weight: 700;
+	margin-bottom: 0px;
+}
