@@ -9,7 +9,8 @@
     "react-bootstrap": "^0.31.0",
     "react-chartjs": "^0.8.0",
     "react-dom": "^15.5.4",
-    "smoothscroll": "^0.3.0"
+    "smoothscroll": "^0.3.0",
+    "universal-analytics": "^0.4.13"
   },
   "devDependencies": {
     "react-scripts": "1.0.7"
