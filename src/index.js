@@ -4,8 +4,9 @@ import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap/dist/css/bootstrap-theme.css';
 import 'smoothscroll'
 import App from './containers/App';
-import registerServiceWorker from './registerServiceWorker';
+// Dont have an SSL cert for this website.
+// import registerServiceWorker from './registerServiceWorker';
 import './index.css';
 
 ReactDOM.render(<App />, document.getElementById('root'));
-registerServiceWorker();
+// registerServiceWorker();
