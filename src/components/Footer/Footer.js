@@ -1,11 +1,10 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
 
-import './Footer.css'
+import "./Footer.css";
 
 class Footer extends Component {
-
   render() {
-    return(
+    return (
       <div id="footwrap">
         <div className="container">
           <div className="row">
@@ -21,7 +20,9 @@ class Footer extends Component {
               <p>Chicago, IL</p>
             </div>
             <div className="col-md-1">
-              <a href="https://github.com/Crazyglue/eric_dobroveanu"><i className="fa fa-github fa-4x"></i></a>
+              <a href="https://github.com/Crazyglue/eric_dobroveanu">
+                <i className="fa fa-github fa-4x" />
+              </a>
             </div>
             <div className="col-md-4">
               <p>This site's source code is on github, check it out!</p>
@@ -30,8 +31,8 @@ class Footer extends Component {
 
         </div>
       </div>
-    )
+    );
   }
 }
 
-export default Footer
+export default Footer;

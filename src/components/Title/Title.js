@@ -1,10 +1,9 @@
-import React, { Component } from 'react';
-import './Title.css';
+import React, { Component } from "react";
+import "./Title.css";
 
 class Title extends Component {
-
   render() {
-    return(
+    return (
       <div id="headerwrap">
         <div className="container">
           <div className="row centered">
@@ -15,9 +14,8 @@ class Title extends Component {
           </div>
         </div>
       </div>
-    )
+    );
   }
-
 }
 
-export default Title
+export default Title;

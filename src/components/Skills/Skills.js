@@ -1,12 +1,11 @@
-import React, { Component } from 'react';
-import './Skills.css';
-import Skill from './Skill'
-import skills from '../../constants/skills.json'
+import React, { Component } from "react";
+import "./Skills.css";
+import Skill from "./Skill";
+import skills from "../../constants/skills.json";
 
 class Skills extends Component {
-
   _generateSkills() {
-    return skills.map((skill, index) => <Skill skill={skill} key={index} />)
+    return skills.map((skill, index) => <Skill skill={skill} key={index} />);
   }
 
   render() {
@@ -23,8 +22,8 @@ class Skills extends Component {
           </div>
         </div>
       </div>
-    )
+    );
   }
 }
 
-export default Skills
+export default Skills;
