@@ -18,7 +18,7 @@ class Work extends Component {
             <p>
               <more>
                 Built, maintained and improved
-                {" "}
+                &nbsp;
                 <a href="http://easel.inventables.com">Easel</a>
                 , a web app which allows users to design and carve 3D objects using a CNC milling machine.
                 I analyzed, planned and implemented a large range of features, from 2D drawing tools to machine control software.
