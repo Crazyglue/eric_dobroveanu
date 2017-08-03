@@ -30,7 +30,7 @@ class Portfolio extends Component {
 
             <p>
               <more>
-                ShuffleTube is a simple app that randomizes youtube videos and plays them for you. You can also shuffle videos by channel. Just add your favorite channels and switch them on to get random videos from those channels. You can also turn on categories at the same time!
+                ShuffleTube is a simple app that randomizes youtube videos and plays them for you. You can also shuffle videos by channel. Just add your favorite channels and switch them on to get random videos from those channels. You can also turn on categories at the same time! The app is currently on the google play store, and because its written in React-Native, will be on the apple app store soon.
               </more>
             </p>
           </div>
