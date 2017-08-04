@@ -13,14 +13,14 @@ class Work extends Component {
           <div className="col-md-6">
             <p>
               <t>Software Engineer</t><br />
-              <a href="http://inventables.com">Inventables</a><br />
+              <a target="_blank" href="http://inventables.com">Inventables</a><br />
             </p>
             <p>
               <more>
                 Built, maintained and improved
                 &nbsp;
-                <a href="http://easel.inventables.com">Easel</a>
-                , a web app which allows users to design and carve 3D objects using a CNC milling machine.
+                <a target="_blank" href="http://easel.inventables.com">Easel</a>
+                , a web app which allows users to design and carve 3D objects using a <a target="_blank" href="https://www.inventables.com/technologies/x-carve">CNC milling machine</a>.
                 I analyzed, planned and implemented a large range of features, from 2D drawing tools to machine control software.
                 In addition, I maintained an e-commerce website, that sold CNC machines, materials and accessories. I also routinely pair programmed, fixed bugs, and collaborated with other departments to achieve strategic and tactical business goals
               </more>
