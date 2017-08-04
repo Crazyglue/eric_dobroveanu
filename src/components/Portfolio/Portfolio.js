@@ -24,9 +24,11 @@ class Portfolio extends Component {
                 <i className="fa fa-android" />&nbsp;
               </a>
             </p>
-            <img className="img-responsive col-sm-4" src={shuffletube1} alt="" />
-            <img className="img-responsive col-sm-4" src={shuffletube2} alt="" />
-            <img className="img-responsive col-sm-4" src={shuffletube3} alt="" />
+            <div>
+              <img className="col-sm-4" src={shuffletube1} alt="" />
+              <img className="col-sm-4" src={shuffletube2} alt="" />
+              <img className="col-sm-4" src={shuffletube3} alt="" />
+            </div>
 
             <p>
               <more>
